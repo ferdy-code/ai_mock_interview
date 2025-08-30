@@ -1,0 +1,16 @@
+### GET
+GET http://localhost:3000/api/vapi/generate
+
+### POST
+POST http://localhost:3000/api/vapi/generate
+Content-Type: application/json
+Accept: application/json
+
+{
+  "type": "mixed",
+  "role": "frontend",
+  "level": "senior",
+  "techstack": "next.js",
+  "amount": "7",
+  "userid": "vd8nTWuIa2cbGKIjcGEz9fNTwkp2"
+}
